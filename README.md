@@ -28,7 +28,8 @@ I'm a passionate and pragmatic full-stack developer with a strong focus on the .
 - Open-source .NET tools that help devs be more productive
 
 ## 📫 How to reach me
-- Email: `badido39@gmail.com`
+- Website: `cleversoft.pro`
+- Email: `badido39@gmail.com` `info@cleversoft.pro`
 - LinkedIn: [linkedin.com/in/badido39](https://linkedin.com/in/badido39)
 
 ---
