@@ -1,43 +1,77 @@
-# 👋 Hi, I’m Badreddine (aka @badido39)
+# 👋 Hi, I'm Badreddine (aka @badido39)
 
-I'm a passionate and pragmatic full-stack developer with a strong focus on the .NET ecosystem. I enjoy building robust, scalable, and modern applications using tools like **ASP.NET Core**, **Blazor**, **MAUI**, and **C#** — but I’m also exploring the world of **AI**, **IoT**, and **automation**.
+I'm a passionate and pragmatic full-stack developer with a strong focus on the **.NET ecosystem**. I build enterprise-grade, real-world applications — from document management systems for Algerian administrations to multi-company financial platforms — using **ASP.NET Core**, **Blazor Server/WebAssembly**, **Entity Framework Core**, and **C#**. I care about shipping code that actually works in production, not just demos.
 
-## 👀 I’m interested in
+---
+
+## 👀 I'm interested in
+
+- Enterprise **document management** and **workflow automation** (parapheur électronique, visa chains, SLA tracking)
+- Multi-tenant **financial management** platforms with inter-company operations
+- Real-time apps using **SignalR** (live notifications, messaging, presence)
+- **Industrial automation** with PLCs (Mitsubishi FX series, ladder logic, analog I/O) and Arduino
+- **AI-powered features** inside .NET — LLMs for document processing, OCR pipelines, exam grading
 - Cross-platform apps with **.NET MAUI**
-- Real-time apps using **SignalR**
-- AI-powered features in **.NET** applications
-- **Industrial automation** with PLCs and Arduino
-- Creating useful tools for **startups** and **small businesses**
+- Creating practical tools for **startups**, **small businesses**, and **public institutions**
 
-## 🌱 I’m currently learning
-- Integrating **custom payment gateways** in Odoo
-- **LLMs & AI APIs** for exam grading and customer support automation
-- Building **offline-first** apps that sync data to the cloud
-- Using **Docker** for deployment and CI/CD automation
+---
+
+## 🔨 What I'm actively building
+
+### 🏛️ AtlasGED — Electronic Document Management System
+A full-featured GED (Gestion Électronique de Documents) platform built for Algerian administrative workflows.
+
+- **Backend:** ASP.NET Core Web API · Entity Framework Core · PostgreSQL · JWT Auth
+- **Frontend:** Blazor Server · Microsoft Fluent UI
+- **Features:** Parallel/sequential workflow engine · parapheur électronique · chrono numbering (DG/0123/2024) · real-time SignalR messaging · file versioning with snapshot history · OCR text extraction (PdfPig + Tesseract `fra+eng+ara`) · physics-based interactive org chart · role-based document visibility with service tree permissions · private workflow support (Demande Congé, etc.) · dynamic superior resolution without per-service template duplication
+
+### 💰 MultiCompany — Multi-Company Financial Management
+A financial management platform supporting multiple companies with inter-company operations.
+
+- **Backend:** ASP.NET Core Web API · Entity Framework Core · SQLite
+- **Frontend:** Blazor Server
+- **Features:** Inter-company loans & transfers · expense/entry tracking · real-time dashboard with group balance · DZD currency · Algerian administrative context
+
+---
+
+## 🌱 I'm currently deepening
+
+- **N-tier layered architecture** with shared DTOs, service results, and clean separation between API and UI
+- **EF Core advanced patterns** — no-tracking queries, complex FK graphs, atomic multi-entity saves
+- **Workflow engine design** — step resolution modes, dynamic superior routing, fan-out patterns
+- **Background processing** — OCR pipelines, text extraction workers, PostgreSQL `tsvector` full-text search
+- **Linux VPS infrastructure** — Nginx reverse proxy, SSL, Docker Compose, PostgreSQL in Docker
+- **LLMs & AI APIs** for document intelligence and automation
+
+---
 
 ## 💬 Ask me about
-- Blazor WebAssembly vs Server — I’ve done both.
-- Setting up MQTT with Mosquitto for secure topic-based communication
-- Real-time dashboards with SignalR
-- Smart cash management with Google Sheets
 
-## 🤝 I’m looking to collaborate on
-- AI-based tools for schools or incubators
-- .NET MAUI mobile projects
-- IoT dashboards with live sensor updates
-- Open-source .NET tools that help devs be more productive
+- Blazor Server vs WebAssembly — I've shipped both in production contexts
+- Building a **workflow engine** from scratch in .NET (parallel steps, visa chains, SLAs)
+- **Fluent UI Blazor** patterns — `FluentSelect`, auth state, scoped dialogs, physics-based SVG charts
+- **EF Core pitfalls** — circular FKs, change tracker conflicts, `AsNoTracking` strategies
+- Setting up **SignalR** hubs with JWT in Blazor Server
+- **Mitsubishi FX2N PLC** programming — FROM/TO instructions, analog output with FX2N-2DA
+- Algerian administrative terminology and document workflows
+
+---
+
+## 🤝 I'm looking to collaborate on
+
+- **AI-based tools** for schools, administrations, or incubators
+- **.NET open-source tools** that solve real bureaucratic or business pain
+- **IoT dashboards** with live sensor updates and PLC integration
+- Enterprise Blazor applications with complex role/permission systems
+
+---
 
 ## 📫 How to reach me
-- Website: `cleversoft.pro`
-- Email: `badido39@gmail.com` `info@cleversoft.pro`
-- LinkedIn: [linkedin.com/in/badido39](https://linkedin.com/in/badido39)
+
+- 🌐 Website: [cleversoft.pro](https://cleversoft.pro)
+- 📧 Email: `badido39@gmail.com` · `info@cleversoft.pro`
+- 💼 LinkedIn: [linkedin.com/in/badreddine-alalei](www.linkedin.com/in/badreddine-alalei-22585922a)
 
 ---
 
-🛠️ *Currently working on:* A full-stack team task management app with push notifications and real-time updates, built using **Blazor WebAssembly + SignalR + .NET 9 Web API + PWA**.
-
-🎯 *Goal for 2025:* Launch a SaaS platform that leverages AI + MQTT + Blazor to help small businesses streamline operations in real-time.
-
----
-
-> 💡 I believe in **shipping practical code** and learning by **building real stuff**. If that sounds like your vibe, let's connect!
+> 💡 I believe in **shipping practical code** and learning by **building real stuff** — real workflows, real constraints, real users. If that's your vibe, let's connect.
